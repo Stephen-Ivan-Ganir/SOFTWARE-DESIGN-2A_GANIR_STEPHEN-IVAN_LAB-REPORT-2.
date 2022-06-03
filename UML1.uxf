@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>12</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>468</x>
+      <y>60</y>
+      <w>252</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>Student.py
+--
+Name:string
+score:int
+getName
+setScore
+getScore
+getAverage
+getHighScore</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>468</x>
+      <y>396</y>
+      <w>252</w>
+      <h>228</h>
+    </coordinates>
+    <panel_attributes>A.py
+--
+import Student
+from Student import Student
+s = Student("Maria", 5)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>576</x>
+      <y>288</y>
+      <w>36</w>
+      <h>132</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+</diagram>
